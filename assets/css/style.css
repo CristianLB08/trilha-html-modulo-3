@@ -36,3 +36,13 @@ a { color:blue; text-decoration: none;}
 figure {
     text-align: center;
 }
+blockquote{
+    background-color: rgba(211, 211, 211, 0.5);
+    border-left: solid 4px rgba(0, 0, 255, 0.5) ;
+}
+table{
+    border: solid darkgray 1px;
+}
+table > thead {
+    background-color: lightgray;
+}
