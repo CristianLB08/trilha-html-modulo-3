@@ -42,7 +42,12 @@ blockquote{
 }
 table{
     border: solid darkgray 1px;
+    text-align: left;
+    border-collapse: collapse;
 }
 table > thead {
-    background-color: lightgray;
+    background-color: darkgray;
+}
+tr:nth-child(even) {
+    background-color: lightgray
 }
